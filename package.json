@@ -1,0 +1,25 @@
+{
+  "name": "Unit-Test-BDD",
+  "version": "1.0.0",
+  "description": "Learn Unit Testing With Behaviour Driven Development with Mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan",
+    "test:watch": "mocha --watch ./test/ ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdmmar/Unit-Test-BDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdmmar/Unit-Test-BDD/issues"
+  },
+  "homepage": "https://github.com/abdmmar/Unit-Test-BDD#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
